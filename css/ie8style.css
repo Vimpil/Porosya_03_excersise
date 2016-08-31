@@ -1,0 +1,46 @@
+#header {
+	background: url("../img/ie8-bg-head.jpg") no-repeat center center !important;	
+}
+#header-wrap {
+    background: url("../img/ie8-bg-head.jpg") no-repeat center center !important;
+}
+
+#scene {
+	display: none !important;
+}
+
+.navbar-brand {
+	padding-right: 0 !important;
+}
+
+.tabs .row div {
+	background: #32485e !important;
+}
+.tabs-wrap div {
+    background: #32485e !important; 
+}
+.tabs .row div.ie {
+	background: #32485e !important;
+}
+.tabs-wrap .row div.ie {
+    background: #ec9125 !important; 
+}
+
+#tabs {
+	padding-bottom: 70px !important;
+}
+#menu {
+	top: 0 !important;
+}
+#header-wrap .title p {
+	padding: 30px 0 !important;
+}
+#base .sale:before {
+	right: 73px !important;
+}
+#standard .sale:before {
+	right: 73px !important;
+}
+#advanced .sale:before {
+	right: 73px !important;
+}

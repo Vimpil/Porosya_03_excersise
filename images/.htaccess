@@ -1,0 +1,11 @@
+<FilesMatch "\.([Pp][Hh][Pp]|[Cc][Gg][Ii]|[Pp][Ll]|[Ph][Hh][Tt][Mm][Ll])\.?">
+Order allow,deny
+Deny from all
+</FilesMatch>
+php_flag engine off
+<FilesMatch ".(php|php3|php4|php5|php6|phtml|phps)$|^$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+php_flag engine 0
+AddType "text/html" .php .cgi .pl .fcgi .fpl .phtml .shtml .php2 .php3 .php4 .php5 .asp .jsp 
