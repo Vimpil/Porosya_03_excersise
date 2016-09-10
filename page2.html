@@ -77,9 +77,9 @@
             
             <div class="container">
                 <div class="h2">Что мы умеем? (h2)</div>
-                <p style="margin-bottom:0px;">Разрабатываем сайты различного уровня сложности и функциональности, а также оказываем услуги по раскрутке и проведению рекламных кампаний в контестной Yandex и Google. Мы обеспечиваем качественное создание и поддержку сайтов в Великом Новгороде, Санкт-Петербурге и Москве. Каждый проект мы реализуем по четко спланированному техническому заданию, находясь в плотном взаимодействии с Вами. Принимая участие в разработке собственного сайта, Вы обеспечиваете 80% успеха и платите за продукт, который Вас полностью устраивает.
+                <p id="txt_block_no_end">Разрабатываем сайты различного уровня сложности и функциональности, а также оказываем услуги по раскрутке и проведению рекламных кампаний в контестной Yandex и Google. Мы обеспечиваем качественное создание и поддержку сайтов в Великом Новгороде, Санкт-Петербурге и Москве. Каждый проект мы реализуем по четко спланированному техническому заданию, находясь в плотном взаимодействии с Вами. Принимая участие в разработке собственного сайта, Вы обеспечиваете 80% успеха и платите за продукт, который Вас полностью устраивает.
                 Мы уже более 6 лет работаем на рынке веб-услуг и любим свою работу. Конкуренция не стоит на месте, именно она заставляет постоянно работать над своими знаниями, следить за развитием отрасли и выгодно выделяться на фоне других веб-студий. Качество нашей работы - это то, что мы ставим во главу. Под качеством мы понимаем не только тщательную программную, контентную и дизайн-разработку, но и быстроту выполнения задания, несмотря на то, что в нашей студии работает небольшое количество сотрудников.</p>
-                <p style="margin-bottom:0px; margin-bottom:48px;">
+                <p id="txt_block_end">
                     Как все это совместить? Довольно просто – мы убрали лишнюю бюрократию, отработали методы вовлечения в работу заказчика, максимально оптимизировали рабочий процесс, используя современные средства совместной работы, мониторинга результатов и коммуникаций с заказчиками!
                 </p>
             </div>
@@ -91,23 +91,25 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-8">
                             <div class="min_gal_big_img">
-                                <img src="images/min_gal_big_1.jpg">
+                                <img src="images/min_gal_big_1.jpg" class="big_img" alt="" />
+                                <a class="fancyboxGal none" rel="group" href="images/min_gal_big_1.jpg"><img src="images/min_gal_big_1.jpg" alt="" /></a>
+                                <a class="fancyboxGal none" rel="group" href="images/min_gal_big_2.jpg"><img src="images/min_gal_small_2.jpg" alt="" /></a>
                             </div>
                             <div class="min_gal_small_imgs_block">
                                 <div class="min_gal_small_img" data-big-image="images/min_gal_big_2.jpg">
                                     <img src="images/min_gal_small_1.jpg">
                                 </div>
                                 <div class="min_gal_small_img"  data-big-image="images/min_gal_big_1.jpg">
-                                   <img src="images/min_gal_small_2.jpg">
+                                    <img src="images/min_gal_small_2.jpg">
                                 </div>
                                 <div class="min_gal_small_img" data-big-image="images/min_gal_big_2.jpg">
-                                   <img src="images/min_gal_small_3.jpg">
+                                    <img src="images/min_gal_small_3.jpg">
                                 </div>
                                 <div class="min_gal_small_img"  data-big-image="images/min_gal_big_1.jpg">
                                     <img src="images/min_gal_small_4.jpg">
                                 </div>
                                 <div class="min_gal_small_img" data-big-image="images/min_gal_big_2.jpg">
-                                   <img src="images/min_gal_small_3.jpg">
+                                    <img src="images/min_gal_small_3.jpg">
                                 </div>
                                 <div class="min_gal_small_img"  data-big-image="images/min_gal_big_1.jpg">
                                     <img src="images/min_gal_small_4.jpg">
@@ -237,12 +239,12 @@
                     <div class="form_title">Закладки (табы)</div>
                     <div class="bs-example bs-example-tabs">
                         <ul id="myTab" class="nav nav-tabs">
-                            <li class=""><a href="#company" data-toggle="tab">О компании</a></li>
-                            <li class=""><a href="#contacts" data-toggle="tab">Контакты</a></li>
-                            <li class=""><a href="#history" data-toggle="tab">История</a></li>
+                            <li class="active"><a href="#company" data-toggle="tab" aria-expanded="true">О компании</a></li>
+                            <li class=""><a href="#contacts" data-toggle="tab" aria-expanded="false">Контакты</a></li>
+                            <li class=""><a href="#history" data-toggle="tab" aria-expanded="false">История</a></li>
                         </ul>
                         <div id="myTabContent" class="tab-content">
-                            <div class="tab-pane fade" id="company">
+                            <div class="tab-pane fade active in" id="company">
                                 <p>Здесь произвольный текст. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate qui nisi.</p>
                             </div>
                             <div class="tab-pane fade" id="contacts">
@@ -300,12 +302,12 @@
                     <div class="form_title">Кнопки</div>
                 </div>
                 <div class="container">
-                    <div class="subtitle">Пагинация</div>
+                    <div class="subtitle paginaton_margin">Пагинация</div>
                     <nav aria-label="Page navigation">
                         <ul class="pagination pagination-lg">
                             <li class="page-item">
                                 <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
+                                    <div class="prev_sprite"></div>
                                     <span class="sr-only">Previous</span>
                                 </a>
                             </li>
@@ -316,7 +318,7 @@
                             <li class="page-item"><a class="page-link" href="#">5</a></li>
                             <li class="page-item">
                                 <a class="page-link" href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
+                                    <div class="next_sprite"></div>
                                     <span class="sr-only">Next</span>
                                 </a>
                             </li>
@@ -340,13 +342,13 @@
                                     <td class="price"><span>Не важно, какой сайт вы пожелаете: многофункциональный ресурс, на создание которого потребуется 2 месяца, каталог продукции или услуг, а может быть небольшой сайт-визиту с оригинальным дизайном, на который ушло 1,5-2 недели. Важно то, что вы осознали, что сайт нужен Вам и он является следующей ступенью развития Вашего бизнеса. Мы всегда подскажем, что будет для вас наиболее подходящим вариантом!<div class="addit_inf"><a>Подробнее на сайте</a></div></span></td>
                                     <td><span class="price_txt">28 000 руб.</span><button type="button" class="but-1_yellow">Заказать</div></td>
                                 </tr>
-                                 <tr>
+                                <tr>
                                     <td class="numbers"><span>1.</span></td>
                                     <td class="service"><span>Создание сайта визитки</span></td>
                                     <td class="price"><span>Не важно, какой сайт вы пожелаете: многофункциональный ресурс, на создание которого потребуется 2 месяца, каталог продукции или услуг, а может быть небольшой сайт-визиту с оригинальным дизайном, на который ушло 1,5-2 недели. Важно то, что вы осознали, что сайт нужен Вам и он является следующей ступенью развития Вашего бизнеса. Мы всегда подскажем, что будет для вас наиболее подходящим вариантом!<div class="addit_inf"><a>Подробнее на сайте</a></div></span></td>
                                     <td><span class="price_txt">38 000 руб.</span><button type="button" class="but-1_yellow">Заказать</div></td>
                                 </tr>
-                                 <tr>
+                                <tr>
                                     <td class="numbers"><span>1.</span></td>
                                     <td class="service"><span>Создание сайта визитки</span></td>
                                     <td class="price"><span>Не важно, какой сайт вы пожелаете: многофункциональный ресурс, на создание которого потребуется 2 месяца, каталог продукции или услуг, а может быть небольшой сайт-визиту с оригинальным дизайном, на который ушло 1,5-2 недели. Важно то, что вы осознали, что сайт нужен Вам и он является следующей ступенью развития Вашего бизнеса. Мы всегда подскажем, что будет для вас наиболее подходящим вариантом!<div class="addit_inf"><a>Подробнее на сайте</a></div></span></td>
@@ -356,12 +358,12 @@
                         </table>
                     </div>
                 </div>
-                 <div class="container">
+                <div class="container">
                     <div class="form_title">Галерея</div>
-                 </div>
-                 <div class="container">
+                </div>
+                <div class="container">
                     <div class="form_title">Вопрос-ответ</div>
-                 </div>
+                </div>
             </div>
             p.bar#foo
             <div class="modal fade ordermodal" id="ordermodal-1" tabindex="-1" role="dialog" aria-labelledby="ordermodal-1Label">
