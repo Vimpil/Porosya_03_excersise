@@ -112,7 +112,7 @@ $(document).ready(function() {
 
 });
 
-// Small gallary functions
+// Small gallery functions
 function fadeOut_img(img_data) {
   $(".min_gal_big_img").animate({
     opacity: "0"
@@ -129,4 +129,40 @@ function fadeIn_img() {
     opacity: "1"
   }, "400");
 }
-// End small gallary functions
+// End small gallery functions
+
+
+// Grid item gallery
+  // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+  // init Isotope
+  var grid = document.querySelector('.grid');
+
+  var msnry = new Masonry( grid, {
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  });
+
+  imagesLoaded( grid ).on( 'progress', function() {
+    // layout Masonry after each image loads
+    msnry.layout();
+  });
+
+
+    $("figure.cap-left").mouseover(function(event){
+      
+      $(this).children("figcaption.b-work_title").toggleClass('mouseout');
+      $(this).children("div.overlay_layer").toggleClass('overlay');
+      $(this).children(".over_category,.over_title").css({'opacity':"1"});
+    });
+    $("figure.cap-left").mouseout(function(event) {
+      
+      $(this).children("figcaption.b-work_title").toggleClass('mouseout');
+      $(this).children("div.overlay_layer").toggleClass('overlay');
+      $(this).children(".over_category,.over_title").css({'opacity':"0"});
+    });
+// END Grid item gallery
+
+// FAQ questions icons
+// END FAQ questions icons
